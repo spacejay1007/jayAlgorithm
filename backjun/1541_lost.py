@@ -1,15 +1,12 @@
-a = input().split('-')
-num = []
-for i in a:
-    cnt = 0
-    s = i.split('+')
-    print(i)
-    print(s)
-    for j in s:
-        cnt += int(j)
-    num.append(cnt)
-    print(num)
-n = num[0]
-for i in range(1, len(num)):
-    n -= num[i]
-print(n)
+A = input().split("-")
+
+total = 0
+
+for i in A[0].split("+"):
+    total += int(i)
+
+for i in A[1:]:
+    for j in i.split("+"):
+        total -= int(j)
+
+print(total)
