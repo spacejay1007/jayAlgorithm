@@ -4,7 +4,7 @@ class Dict:
 
     def put(self, key, value):
         index = hash(key) % len(self.items)
-        self.item[index] = value
+        self.items[index] = value
         # return
 
     def get(self, key):
