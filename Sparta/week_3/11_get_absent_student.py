@@ -11,6 +11,7 @@ def get_absent_student(all_array, present_array):
         del dict[key]
 
     for key in dict.keys():
+
         return key
 
 

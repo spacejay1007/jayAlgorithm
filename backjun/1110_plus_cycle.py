@@ -9,7 +9,7 @@ while True:
     c = (a + b) % 10
 
     num = (b * 10) + c
-    print(num)
+
     cnt += 1
 
     if A == num:
