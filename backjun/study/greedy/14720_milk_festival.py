@@ -14,15 +14,17 @@
 # # cnt = cnt // 3
 # # print(cnt)
 
+a, b = map(int, input().split())
 
-n = input()
-
-# c = chr(a)
-
-
-# S = int(a, 16)
-# M = format(S, "o")
-# print(-a)
+if a < b:
+    print(True)
+elif a >= b:
+    print(False)
 
 
-print(chr(n+1))
+# print('%.3f' % c)
+
+# A = round(a, 2)
+# print(A)
+# print(int(a)//int(b))
+# c = A ** B
