@@ -42,7 +42,7 @@
 #         print(c)
 #     else:
 #         print(a)
-    
+
 # 짝수 출력
 # if a % 2 == 0:
 #     print("even")
@@ -58,7 +58,6 @@
 #     print("odd")
 
 
-
 # a = int(input())
 
 # if a <= 0 :
@@ -71,7 +70,7 @@
 #         print("C")
 #     else:
 #         print("D")
-    
+
 # if a >= 90:
 #     print("A")
 # elif a >= 70:
@@ -108,7 +107,6 @@
 #     print("winter")
 
 
-
 # while True :
 #     n = int(input())
 #     if int(n) == 0:
@@ -122,15 +120,15 @@
 # while a != 0:
 #     a -= 1
 #     print(a)
-        
+
 # # 스펠링을 받아서 받은 스펠링 보다 낮은 스펠링 출력하기
 # a = ord(input())
 # t = ord("a")
 
 # while t <= a:
 #     print(chr(t), end=" ")
-#     t += 1 
-    
+#     t += 1
+
 # a = int(input())
 # t = int(0)
 
@@ -149,19 +147,19 @@
 # print(sum)
 
 
-# while True: 
+# while True:
 #     a = input()
 #     print(a)
 #     if a == "q":
 #         break
-    
+
 # a = int(input())
 # b = 0
 # # print(b)
 # cnt = 0
 # while a != cnt:
 #     b += 1
-#     cnt += b 
+#     cnt += b
 #     if  a == cnt:
 #         print(b)
 #         break
@@ -171,10 +169,34 @@
 
 # 주사위 경우의 수
 
-n, m = map(int,input().split())
+# n, m = map(int,input().split())
 
-for i in range(1, n+1):
-    for j in range(1, m+1):
-        print(i,j)
+# for i in range(1, n+1):
+#     for j in range(1, m+1):
+#         print(i,j)
 
-    
+
+# # 3의 배수는 통과
+
+# m = int(input())
+
+# for i in range(1, m+1):
+#     if i % 3 == 0:
+#         continue
+#     else:
+#         print(i)
+
+# 수 나열하기 1
+
+a, r, n = map(int, input().split())
+
+x = a
+for i in range(1, n):
+    x *= r
+
+print(x)
+
+# sum = 0
+# for i in range(a, d+1, n):
+#     sum += a[i]
+#     print(sum)

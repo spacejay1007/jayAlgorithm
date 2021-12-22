@@ -1,11 +1,14 @@
-S = int(input())
+# S = int(input())
+s = int(input())
+n = 1
+while n * (n + 1) / 2 <= s:
+    n += 1
+    print(n)
+print(n - 1)
 
-N = 0
-cnt = 0
+# while n <= s:
 
-while True:
+#     n += 1
 
-    sum += N + 1
-    cnt += 1
-
+# print(n)
 # print(cnt)
