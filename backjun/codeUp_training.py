@@ -188,15 +188,119 @@
 
 # 수 나열하기 1
 
-a, r, n = map(int, input().split())
+# a, r, n = map(int, input().split())
 
-x = a
-for i in range(1, n):
-    x *= r
+# x = a
+# for i in range(1, n):
+#     x *= r
 
-print(x)
+# print(x)
 
 # sum = 0
 # for i in range(a, d+1, n):
 #     sum += a[i]
 #     print(sum)
+
+
+# a, m, d, n = map(int, input().split())
+
+
+# for i in range(1, n):
+#     # print(i)
+
+#     a = a*m+d
+#     # print(sum)
+# print(a)
+
+
+# a, b, c = map(int, input().split())
+
+# # a=3배수
+# # b=7배수
+# # c=9배수
+
+# d = 1
+# while d % a != 0 or d % b != 0 or d % c != 0:
+#     d += 1
+
+# print(d)
+
+
+# a = int(input())
+# b = list(map(int, input().split()))
+# print(b)
+# attend = []
+# # for i in range(a):
+# #     # print(i)
+# #     b[i] = int(b[i])
+
+# for i in range(24):
+#     attend.append(0)
+#     print(attend)
+# for i in range(a):
+#     attend[b[i]] += 1
+#     # print(attend)
+
+# for i in range(1, 24):
+#     print(attend[i], end=' ')
+
+
+# a = int(input())
+# b = list(map(int, input().split()))
+
+# atd = []
+
+# # for i in range(a):
+# #     b[i] = int(b[i])
+# for i in range(24):
+#     atd.append(0)
+
+# for i in range(a):
+#     atd[b[i]] += 1
+
+# for i in range(1, 24):
+#     print(atd[i], end=" ")
+
+
+# a = int(input())
+# b = list(map(int, input().split()))
+
+# # n = sorted(b, reverse=True)
+
+# for i in range(a-1, -1, -1):
+#     print(b[i], end=" ")
+
+
+# a = int(input())
+# b = list(map(int, input().split()))
+
+# b.sort()
+
+# print(b[0])
+
+# d = []
+
+# for i in range(20):
+#     d.append([])
+#     for j in range(20):
+#         d[i].append(0)
+
+# a = int(input())
+
+# for i in range(a):
+#     x, y = map(int, input().split())
+#     # print(x, y)
+#     d[x][y] = 1
+
+# for i in range(1, 20):
+#     for j in range(1, 20):
+#         print(d[i][j], end=" ")
+#     print()
+
+# print(d)
+
+
+# a = int(input())
+for i in range(20):
+    b = list(int, input().split())
+    print(i)
