@@ -301,6 +301,50 @@
 
 
 # a = int(input())
-for i in range(20):
-    b = list(int, input().split())
-    print(i)
+# for i in range(20):
+#     b = list(int, input().split())
+#     print(i)
+
+
+# a = int(input())
+
+# m = [10, 50, 100, 500, 1000, 5000, 10000, 50000]
+# M = sorted(m, reverse=True)
+# n = 0
+
+# for i in M:
+#     # n  a // m[i]
+#     # n += a // M[i]
+#     # print(i)
+#     n += a // i
+
+#     a = a % i
+
+
+# # print(n)
+
+
+# P = []
+# J = []
+
+# for i in range(3):
+#     P.append(int(input()))
+# for i in range(2):
+#     J.append(int(input()))
+
+# P.sort()
+# J.sort()
+# sum = (P[0]+J[0]) * 1.1
+
+# print(round(sum, 1))
+
+
+# 스택 역순 출력
+
+a = int(input())
+n = list(map(int, input().split()))
+n.reverse()
+# N = []
+for i in n:
+    print(i, end=" ")
+    # N.append(n)
