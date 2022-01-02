@@ -339,12 +339,99 @@
 # print(round(sum, 1))
 
 
-# 스택 역순 출력
+# # 스택 역순 출력
 
-a = int(input())
-n = list(map(int, input().split()))
-n.reverse()
-# N = []
-for i in n:
-    print(i, end=" ")
-    # N.append(n)
+# a = int(input())
+# n = list(map(int, input().split()))
+# n.reverse()
+# # N = []
+# for i in n:
+#     print(i, end=" ")
+#     # N.append(n)
+
+# a, b = map(int, input().split())
+# c = abs(a - b)
+# cnt = 0
+
+# while c != 0:
+
+#     if c >= 10:
+
+#         c -= 10
+#         cnt += 1
+#     # print(cnt)
+
+#     else:
+#         if c <= 9 and c >= 5:
+
+#             c -= 5
+#         # a += 5
+#             cnt += 1
+# #         # a = a % btn[2]
+
+#         elif c <= 4:
+#             c -= 1
+#             cnt += 1
+# print(cnt)
+# print(cnt)
+
+# for i in True:
+#     if a < b:
+
+# for i in range(a-1, -1, -1):
+#     cnt += b // btn[i]
+#     b = b % btn[i]
+# print(cnt)
+
+
+# a, b = map(int, input().split())
+
+# c = abs(a-b)
+# cnt = 0
+
+# while True:
+#     if c == 0:
+#         break
+#     elif c >= 10:
+#         c -= 10
+#     elif c <= 9 and c >= 5:
+#         c -= 5
+#     elif c <= 4:
+#         c -= 1
+#     cnt += 1
+# print(cnt)
+
+
+N, K = map(int, input().split())
+
+cup = []
+c = 0
+
+
+for i in range(1, N+1):
+    cup.append(i)
+
+# print(sum(cup))
+# while sum(cup) >= K:
+#     K = K - cup[i]
+#     c += 1
+
+for i in range(N-1, -1, -1):
+    if sum(cup) >= K:
+        K = K - cup[i]
+        c += 1
+
+    elif sum(cup) < K:
+        c = -1
+
+
+#         sum = K - cup[i]
+#         c += 1
+print(c)
+# if sum == K:
+#     break
+# elif sum > K
+
+# print(c)
+# if N < K:
+#     print(-1)
