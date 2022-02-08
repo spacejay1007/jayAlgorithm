@@ -1,7 +1,7 @@
 const fs = require('fs');
 const input = fs.readFileSync('example.txt').toString().split('\n');
 
-// const N = Number(input);
+const N = Number(input);
 
 // const X = [];
 // for (let i = 1; i < N + 1; i++) {
@@ -15,12 +15,21 @@ const input = fs.readFileSync('example.txt').toString().split('\n');
 
 // console.log(XX);
 
-const N = Number(input[0]);
+// const N = Number(input[0]);
 
-function f(n) {
-  if (n === 0) {
-    return 1;
-  }
-  return n * f(n - 1);
+// function f(n) {
+//   if (n === 0) {
+//     return 1;
+//   }
+//   return n * f(n - 1);
+// }
+// console.log(f(N));
+
+function factorial(n) {
+  let result = 1;
+  for (let i = 2; i <= n; i++) result *= i;
+  return result;
 }
-console.log(f(N));
+
+console.log(factorial(N));
+console.log(N);
