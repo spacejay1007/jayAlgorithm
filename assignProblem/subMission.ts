@@ -6,4 +6,8 @@ import sub from "./subMissionBefore.json"
 
 export const treeFunc = () => {
     console.log(sub)
+    return (
+        console.log(sub)
+        )
 }
+
